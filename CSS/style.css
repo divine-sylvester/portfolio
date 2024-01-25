@@ -2,10 +2,93 @@
     font-family: sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     padding-left: 60px;
 }
-.collapse{
-      padding-left: 50rem;
+/* Styling the header */
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10rem;
+}
+.head span{
+  color: rgb(63, 56, 56) ;  
+}
+.navigation a{
+    text-decoration: none;
+    color:black;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    padding-right: 30rem;
+}
+.head button{
+    margin-right: 5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(63, 56, 56);
+    color: white;
+}
+/* Styling the main content */
+.port{
+    padding-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+}
+.intro{
+    padding-top: 70px;
+}
+.intro h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.intro p{
+    padding-top: 15px;
+}
+.intro button{
+    margin-top: 15px;
+}
+.intro span{
+    color: rgb(63, 56, 56);
+}
+.yeh{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 8px;
+    border: solid;
+    border-color: rgb(63, 56, 56) ;
+    margin-left: 15px;
+    color:rgb(63, 56, 56) ;
+}
+.alt{
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(63, 56, 56);
+    color: white;
+}
+/* Modifying my picture */
+.port img{
+    width: 20rem;
+    border-radius: 50px;
+}
+@media (max-width:600px){
+
 }
