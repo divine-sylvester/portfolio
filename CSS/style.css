@@ -5,9 +5,23 @@
     box-sizing: border-box;
 }
 body{
+    /* padding-left: 60px; */
+    min-height: 100vh;
+    /* background-color: rgba(109, 101, 101, 0.461) ; */
+    /* background-image: url(/img/myportbck.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+/* Styling the header */
+
+.first{
+    background-color: rgba(109, 101, 101, 0.461) ;
     padding-left: 60px;
 }
-/* Styling the header */
 .head {
     display: flex;
     align-items: center;
@@ -18,15 +32,19 @@ body{
 .head span{
   color: rgb(63, 56, 56) ;  
 }
+.ed sub{
+    color:  rgb(63, 56, 56);
+}
 .navigation a{
-    text-decoration: none;
+    text-decoration: none; 
+                                                                                                                                                                                                                    
     color:black;
 }
 .navigation{
     display: flex;
     justify-content: space-around;
     gap: 2rem;
-    padding-right: 30rem;
+    padding-right: 10rem;
 }
 .head button{
     margin-right: 5rem;
@@ -73,6 +91,10 @@ body{
     margin-left: 15px;
     color:rgb(63, 56, 56) ;
 }
+.yeh:hover{
+    color: white;
+    background-color: rgb(63, 56, 56);
+}
 .alt{
     
     padding-top: 8px;
@@ -84,11 +106,82 @@ body{
     background-color: rgb(63, 56, 56);
     color: white;
 }
+.alt:hover{
+    color: rgb(63, 56, 56) ;
+    background-color: white;
+    border: solid;
+    border-color: rgb(63, 56, 56);
+}
 /* Modifying my picture */
 .port img{
     width: 20rem;
-    border-radius: 50px;
+    border-radius: 35px;
+    margin-right: 50px;
+    margin-bottom:40px;
 }
-@media (max-width:600px){
+.jpg{
+background-color:rgba(158, 151, 151, 0.461);
+}
+.about-me{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.about-me img{
+    width: 25rem;
+    height: 20rem;
+    border-radius: 35px;
+    margin-right: 50px;
+    margin-bottom:40px;
+}
+.about-me h2{
+    font-size: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.my-work{
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.my-work h2{
+    font-size: 50px;
+    /* padding-left: 35rem; */
+}
+.my-work p{
+    /* text-align: center; */
+}
+.box-one{
+    border-radius: 30px;
+    height: 25rem;
+    width: 20rem;
+    padding-bottom: 0px;
+    background-color: grey;
+    
+}
+.box-two{
+    border-radius: 30px;
+    height: 25rem;
+    width: 20rem;
+    padding-bottom: 0px;
+    background-color: grey;
+    
+}
+.box-three{
+    border-radius: 30px;
+    height: 25rem;
+    width: 20rem;
+    padding-bottom: 0px;
+    background-color: grey;
+    
+}
+.work{
+    display: flex;
+    justify-content: space-around;
+    gap: rem;
+    padding-top: 20px;
+}
+@media (disp ){
 
 }
